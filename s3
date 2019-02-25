@@ -1,0 +1,7 @@
+from math import sqrt
+c=int(input("enter \n"))
+d=int(input("enter \n"))
+h=int(input("enter \n"))
+def s(c,d,h):
+    return sqrt((2*c*d)/h)
+print(s(c,d,h))
